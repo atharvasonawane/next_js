@@ -1,0 +1,4 @@
+Layouts:
+Layouts allow you to define UI that is shared between multiple pages.
+When navigating between pages that shares a layout ,only the page component updates, the  layout doestn re-renders.
+Leading to smoother user experience and improved experience.
