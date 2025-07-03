@@ -2,3 +2,10 @@ Layouts:
 Layouts allow you to define UI that is shared between multiple pages.
 When navigating between pages that shares a layout ,only the page component updates, the  layout doestn re-renders.
 Leading to smoother user experience and improved experience.
+
+Route Handlers:
+Route handlers allows you to create custom request handlers for your application.
+Unlike page routes which respond to html only, route handlers allows you  to create RESTful endpoints.
+Gives you full control over the response without the need for separate backend setup.
+Perfect for handling  from forma submissions and database queries  to secure interactions  with third party apis.
+By running server side , they ensure sensitive information like api keys remains protected.
