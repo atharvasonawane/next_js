@@ -9,3 +9,14 @@ Unlike page routes which respond to html only, route handlers allows you  to cre
 Gives you full control over the response without the need for separate backend setup.
 Perfect for handling  from forma submissions and database queries  to secure interactions  with third party apis.
 By running server side , they ensure sensitive information like api keys remains protected.
+
+DATA FETCHING:
+Server componetns are preferres choices for data fetching in nextjs
+-reduced bundle size
+-lower latency
+-improved smoother
+-direct access to backend resources
+-and the ability to secure sensitive data
+Opt for client components for data fetching only when its absolute necessary,
+such as when you need real time updates or when the data depends on
+client-side interaction that cant be predicted on server side.
