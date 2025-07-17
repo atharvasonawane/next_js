@@ -25,3 +25,7 @@ SERVER ACTIONS:
 Server actions are async functions that are executed on the server.
 They allow us to define and executer server0side logic directly from our components.
 They are incredibly useful for handling form sumissions,updating databases,or any operation that requires server-side execution.
+
+
+AUTHENTICATION:
+Authentication using clerk
